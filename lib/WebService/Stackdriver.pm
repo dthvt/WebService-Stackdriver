@@ -9,9 +9,9 @@ use DateTime;
 use LWP::UserAgent;
 use JSON;
 
-use Data::Dumper qw(Dumper);
+#use Data::Dumper qw(Dumper);
 
-our $VERSION = '0.01';
+our $VERSION = '1.0.0';
 
 =head1 NAME
 
@@ -194,7 +194,7 @@ sub submit_code_deploy {
 	
 	$self->{last_response} = $resp;
 	
-	print Dumper $resp;
+	#print Dumper $resp;
 	
 	return $resp->is_success;
 }

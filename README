@@ -1,5 +1,5 @@
-WebService-Stackdriver version 0.01
-===================================
+WebService-Stackdriver version 1.0.0
+====================================
 
 The README is used to introduce the module and provide instructions on
 how to install the module, any machine dependencies it may have (for
@@ -25,13 +25,13 @@ DEPENDENCIES
 
 This module requires these other modules and libraries:
 
-  LWP
+	DateTime
+	LWP::UserAgent
+	JSON
 
 COPYRIGHT AND LICENCE
 
-Put the correct copyright and licence information here.
-
-Copyright (C) 2013 by A. U. Thor
+Copyright (C) 2013 by Daniel Hagan <daniel@kickidle.com>
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself, either Perl version 5.18.0 or,
