@@ -11,7 +11,7 @@ use JSON;
 
 #use Data::Dumper qw(Dumper);
 
-our $VERSION = '1.0.0';
+our $VERSION = '1.0.1';
 
 =head1 NAME
 
@@ -50,11 +50,8 @@ WebService::Stackdriver - Perl extension for Stackdriver web API
 
 =head1 DESCRIPTION
 
-Stub documentation for WebService::Stackdriver, created by h2xs. It looks like the
-author of the extension was negligent enough to leave the stub
-unedited.
-
-Blah blah blah.
+WebService::Stackdriver provides access to the custom metrics and code deployment 
+notification API for Stackdriver.
 
 =head1 USAGE
 
