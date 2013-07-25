@@ -1,6 +1,9 @@
 Revision history for Perl extension WebService::Stackdriver.
 
-1.00  Tue Jul 23 12:43:36 2013
+1.0.1  Thu Jul 25 17:22:44 2013
+	- Fixed boiler plate in documentation.
+
+1.0.0  Tue Jul 23 12:43:36 2013
 	- Initial release for API support for custom metrics
 	  and deploy events.
 

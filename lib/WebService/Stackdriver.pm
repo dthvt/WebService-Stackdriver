@@ -11,7 +11,7 @@ use JSON;
 
 #use Data::Dumper qw(Dumper);
 
-our $VERSION = '1.0.1';
+our $VERSION = '1.0.2';
 
 =head1 NAME
 
